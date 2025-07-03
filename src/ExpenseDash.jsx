@@ -27,7 +27,7 @@ function ExpenseDashboard() {
             <div key={expense.id} className="expense-card">
               <div>
                 <strong>{expense.expenseName}</strong>
-                <p>Amount: ${expense.amount}</p>
+                <p>Amount: ₹{expense.amount}</p>
                 <p>Date: {expense.date}</p>
                 <p>Category: {expense.category}</p>
               </div>
